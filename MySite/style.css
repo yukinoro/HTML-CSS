@@ -18,6 +18,9 @@ header{
 	width: 1024px;
 	margin: 0 auto;
 }
+.humberger-menu{
+  display: none;
+}
 .header-box img{
 	height: 70px;
 }
@@ -332,6 +335,7 @@ footer p{
   }
   .feature-item{
     float: none;
+    width: 100%;
     text-align: center;
     margin: 30px auto;
   }
@@ -387,8 +391,6 @@ footer p{
   footer{
     height: 60px;
   }
-
-
 }
 
 
