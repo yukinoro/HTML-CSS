@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.header-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+.header-box img{
+	height: 70px;
+}
+.menu-box{
+  height: 70px;
+  float: right;
+}
+.menu-box p{
+display: inline-block;
+text-align: center;
+margin: auto 30px;
+line-height: 70px;
+color: #fff;
+}
+.main-visual{
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+}
+.main-visual-headline h1{
+  text-align: center;
+  font-size: 64px;
+  color: #FAFAFA;
+  margin: 0 auto;
+}
+.main-visual-headline h3{
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+  margin-top: 10px;
+}
+.Portfolio{
+  width: 100%;
+  background-color: #ECEFF1;
+  padding: 90px 0;
+}
+.portfolio-box{
+  width: 920px;
+  margin: 0 auto;
+}
+h2{
+  font-size: 32px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+.headline-bar{
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0;
+  background-color: #EC715F;
+}
+.text{
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+.portfolio-image-box{
+  width: 920px;
+  height: 510px;
+  margin: 0 auto;
+}
+.portfolio-image{
+  height: 250px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.portfolio-image:nth-child(1){
+  background-image: url(img/sketch.jpg);
+  background-size: 300px 250px;
+  float: left;
+}
+.portfolio-image:nth-child(2){
+  background-image: url(img/websuku.png);
+  background-size: 300px 250px;
+  float: left;
+}
+.portfolio-image:nth-child(3){
+  background-image: url(img/write.jpg);
+  background-size: 300px 250px;
+  float: left;
+  margin-right: 0;
+}
+.portfolio-image:nth-child(4){
+  background-image: url(img/webcamp.png);
+  background-size: 300px 250px;
+  float: left;
+  margin-bottom: 0;
+}
+.portfolio-image:nth-child(5){
+  background-image: url(img/talk.jpg);
+  background-size: 300px 250px;
+  float: left;
+  margin-bottom: 0px;
+}
+.portfolio-image:nth-child(6){
+  background-image: url(img/webcamp-mother.png);
+  background-size: 300px 250px;
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.Feature-box{
+  width: 980px;
+  margin: 90px auto;
+}
+.feature-item{
+width: 320px;
+height: auto;
+float: left;
+text-align: center;
+margin-right: 10px;
+margin-left: 0;
+}
+.feature-item i{
+font-size: 60px;
+}
+.feature-item h3{
+font-size: 20px;
+margin: 10px 0;
+color: #000000;
+}
+.feature-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  word-break: keep-all;
+}
+.feature-item:nth-child(3){
+margin-right: 0px;
+}
+.Plofile{
+  width: 100%
+  height: auto;
+  background-color: #ECEFF1;
+  padding: 90px 0;
+}
+.plofile-box{
+  width: 1024px;
+  margin:0 auto;
+}
+.plofile-item-right{
+  width: 512px;
+  float: left;
+  margin: 0 auto;
+}
+.plofile-image img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.plofile-image p{
+  margin: 0 auto;
+}
+.plofile-item-left{
+  width: 512px;
+  margin-top: 30px;
+  float: left;
+}
+.plofile-text{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.plofile-element{
+  margin-top: 5px;
+}
+.contact-box{
+  width: 800px;
+  height: auto;
+  margin: 90px auto;
+}
+.contact-item {
+  width: 800px;
+  margin: 30px auto 0;
+}
+.contact-item-left{
+  width: 400px;
+  float: left;
+  padding-left: 140px;
+  text-align: left;
+}
+.contact-item-right{
+  width: 400px;
+  float: left;
+  padding-left: 100px;
+}
+.contact-item-left h4{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: black;
+}
+.contact-item-left p{
+  margin-bottom: 20px;
+  color: black;
+}
+.contact-item-right h4{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: black;
+}
+.contact-item-right p{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 50px;
+  color: black;
+}
+footer{
+  height: 60px;
+  width: 100%;
+  background-color: #EC715F;
+}
+footer p{
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+  text-align: center;
+}
+@media screen and (max-width:767px){
+  header{
+    height: 50px;
+  }
+  .header-box{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .header-box img{
+    height: 50px;
+  }
+
+  .humburger-box{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #FAFAFA;
+ 
+  }
+  .list-bar{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+  .main-visual-headline h1{
+    font-size: 40px;
+    color: #FAFAFA;
+  }
+  .main-visual-headline h3{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FAFAFA;
+  }
+
+  .menu-box{
+    display: none;
+  }
+  .main-visual{
+    background-image: url(img/code.png);
+    background-size: cover;
+    height: 650px;
+    padding-top: 200px;
+  }
+  .portfolio-box{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .portfolio-image-box{
+    float: none;
+    width: 300px;
+    height: 770px;
+    margin: 0 auto;
+    display: block;
+  }
+  .portfolio-image{
+    width: 300px;
+    height: 250px;
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .portfolio-image:nth-child(1),　{
+    display: none;
+  }
+  .portfolio-image:nth-child(3){
+    display: none;
+  }
+  .portfolio-image:nth-child(4){
+    margin-bottom: 10px;
+  }
+  .portfolio-image:nth-child(5){
+    display: none;
+  }
+  .portfolio-image:nth-child(6){
+   margin-bottom: 0;
+  }
+
+  .Feature-box{
+    width: 90%;
+    margin: 90px 5%;
+  }
+  .feature-item{
+    float: none;
+    text-align: center;
+    margin: 30px auto;
+  }
+  .feature-item:nth-child(3){
+    margin: 0 auto;
+  }
+  .feature-text{
+    text-align: left;
+  }
+  .Plofile{
+    width: 100%;
+  }
+  .plofile-box{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .plofile-item-right{
+    float: none;
+    width: 100%;
+    word-break: keep-all;
+  }
+  .plofile-item-left{
+    float: none;
+    width: 100%
+  }
+  .plofile-image p{
+    margin: 0 auto;
+  }
+  .contact-box{
+    width: 90%;
+    margin: 90px 5% 30px;
+  }
+  .contact-item{
+    width: 90%;
+    margin: 0 5% 90px;
+  }
+  .contact-item-left{
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-item-right{
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer{
+    height: 60px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
